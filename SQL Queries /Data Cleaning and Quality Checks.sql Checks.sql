@@ -18,8 +18,8 @@ FROM users
 -- begin_checkout, purchase
 
 SELECT 
-     type AS event_type,
-     COUNT(*) AS total_events
+type AS event_type,
+COUNT(*) AS total_events
 FROM events
 GROUP BY event_type
 ORDER BY total_events DESC
