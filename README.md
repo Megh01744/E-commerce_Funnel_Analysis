@@ -87,4 +87,40 @@ The entire interactive dashboard can be downloaded [here](https://github.com/Meg
 
 <img width="1425" height="798" alt="Page_3 Customer   Product Intelligence" src="https://github.com/user-attachments/assets/ca29c186-89cd-4bd2-a629-b1df0d4d4979" />
 
+## Recommendations
+
+- **Make it easier for users to move from cart to checkout.** The largest drop happens at this stage, so the business should make shipping charges, delivery dates, return policies, and the checkout button clear before users leave the cart.
+
+- **Bring cart abandoners back.** Reminder emails, app notifications, or small time-limited offers could encourage users to return and complete their purchase.
+
+- **Improve the tablet experience.** Tablet users have the lowest conversion rate, so the cart layout, page speed, button placement, and payment flow should be tested on tablet devices.
+
+- **Continue supporting Apparel, but avoid depending on it too heavily.** Apparel generates most of the revenue, but relying on one category creates risk. Other promising categories should also receive more visibility.
+
+- **Promote categories that already convert well.** Small Goods and Gift Cards have strong conversion rates despite lower revenue. They could be featured more often, recommended alongside Apparel, or included in product bundles.
+
+- **Encourage low- and mid-value users to return.** Personalized offers, loyalty rewards, and relevant product recommendations could help increase repeat purchases and move more users into higher-value segments.
+
+- **Test improvements first in the largest markets.** Since the United States contributes the most purchases, changes should be tested there first before being expanded to markets such as India and Canada.
+
+## Recommendations
+
+### Funnel & Checkout
+- **Fix the cart-to-checkout drop.** At 5.8% against an industry average of 15-20%, showing shipping costs upfront and adding guest checkout should be the first priority.
+
+- **Win back cart abandoners.** 94% leave before checkout even a simple reminder email recovering 5% of them would meaningfully impact the 2.21% overall conversion rate.
+
+### Device Experience
+- **Fix tablet experience.** Lowest conversion at 1.84% - test button placement, page speed and payment flow on tablet.
+
+### Product & Revenue
+- **Reduce Apparel dependency.** It drives $157K — 8x the next category. Give Bags and Accessories more visibility before the business becomes too reliant on one category.
+
+- **Promote Small Goods and Gift Cards.** They convert at 7.37% and 6.88% — highest in the store yet barely show up in revenue. Bundle them with Apparel at checkout.
+
+### Customer Retention
+- **Protect the 68 high-value customers.** Their LTV reaches $3,360. A basic VIP program could retain the customers who matter most.
+
+### Geographic Focus
+- **Test everything in the US first.** 6,506 purchases — 5x India in second place. Validate any change there before rolling out globally.
 
