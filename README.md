@@ -106,12 +106,11 @@ The entire interactive dashboard can be downloaded [here](https://github.com/Meg
 - **Protect the 68 high-value customers.** Their LTV reaches $3,360. A basic VIP program could retain the customers who matter most.
 
 ### Geographic Focus
-- **Test everything in the US first.** 6,506 purchases and India in second place. Validate any change there before rolling out globally.
+- **Test everything in the US first.** 6,506 purchases - 5x India in second place. Validate any change there before rolling out globally.
 
 ## Tools Used
 
 - **Python** (Pandas, Matplotlib) — Data Inspection and EDA
 - **SQL** (SQLite3) — Data querying and analysis
 - **Power BI** — Interactive dashboard and visualization
-- **GitHub** — Project documentation
 
