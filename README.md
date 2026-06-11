@@ -108,3 +108,10 @@ The entire interactive dashboard can be downloaded [here](https://github.com/Meg
 ### Geographic Focus
 - **Test everything in the US first.** 6,506 purchases and India in second place. Validate any change there before rolling out globally.
 
+## Tools Used
+
+- **Python** (Pandas, Matplotlib) — Data Inspection and EDA
+- **SQL** (SQLite3) — Data querying and analysis
+- **Power BI** — Interactive dashboard and visualization
+- **GitHub** — Project documentation
+
