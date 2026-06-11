@@ -31,4 +31,16 @@ The entire interactive dashboard can be downloaded [here](https://github.com/Meg
 
 ![Executive Overview](https://github.com/Megh01744/E-commerce_Funnel_Analysis/blob/65b20071760da2fbf589dd5454fab08a3a61484e/Page_1%20Executive%20Overview.png)
 
+## Conversion and Drop-off Analysis
+
+-The biggest drop happens between Add to Cart and Begin Checkout.
+-Only 5.80% of users who add products to their cart move forward to checkout.
+-This means nearly 94.20% leave before reaching checkout, making it the main problem area in the funnel.
+-Once users reach checkout, their buying intent becomes much stronger.
+-Around 38.11% of checkout events result in a completed purchase.
+-Mobile has the highest overall funnel conversion rate at 2.24%, followed closely by desktop at 2.20%.
+-Tablet performs the weakest, with a conversion rate of 1.84%.
+-Since device conversion rates are quite similar, the issue does not appear to be limited to one device.
+-The main opportunity is to understand and reduce the friction that prevents users from moving from cart to checkout.
+
 
