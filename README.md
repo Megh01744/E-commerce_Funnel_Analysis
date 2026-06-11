@@ -2,10 +2,17 @@
 
 ## Google Merchandise Store Funnel Analysis & Conversion Optimization
 
-Google Merchandise Store is a global e-commerce platform selling Google-branded products including Apparel, Accessories, and Electronics worldwide via its website across desktop, mobile and tablet devices.
+The Google Merchandise Store is an e-commerce platform where customers browse and purchase branded products. Every customer interaction generates valuable data about product interest, shopping behavior, and movement through the purchase journey.
 
-The store has significant data on customer behavior, purchase patterns, and funnel performance that has been underutilized. This project analyzes that data to uncover critical insights that will improve conversion and revenue performance.
+This project analyzes customer activity across three key funnel stages: Add to Cart, Begin Checkout, and Purchase. The aim is to identify where users leave the funnel, understand which customer and product segments perform better, and uncover opportunities to improve conversion.
 
+The analysis focuses on the following areas:
+
+- Funnel Performance: Measuring customer movement and drop-off across each stage.
+- Device and Geographic Behavior: Comparing conversion performance by device and country.
+- Product Performance: Evaluating category-level revenue and conversion.
+- Customer Value: Segmenting users based on lifetime value.
+- Business Opportunities: Recommending actions to reduce funnel leakage and improve purchases.
 
 
 The SQL queries utilized to inspect and perform Data Cleaning and Quality Checks [here](https://github.com/Megh01744/E-commerce_Funnel_Analysis/blob/main/SQL%20Queries%20/Data%20Cleaning%20and%20Quality%20Checks.sql)
@@ -22,6 +29,22 @@ The database structure consists of three tables: events, items, and users, with 
 
 ![ERD](https://github.com/Megh01744/E-commerce_Funnel_Analysis/blob/main/Google%20Merchandise%20Store%20ERD%20Diagram.png)
 
+## Python EDA & Visualization
+Exploratory Data Analysis was performed using Python to visualize key patterns across the dataset .Python was used to explore the SQL results in more detail and visualize the main patterns using (Pandas and Matplotlib).
+
+The full Python EDA notebook can be found [here](https://github.com/Megh01744/E-commerce_Funnel_Analysis/blob/main/Ecommerce_Funnel_EDA.ipynb)
+
+The analysis covered:
+
+- Funnel-stage distribution and overall conversion
+- Checkout and purchase performance by device
+- Top countries by completed purchases
+- Product categories by purchases and revenue
+- Category-level conversion rates
+- User segmentation based on lifetime value
+
+The analysis confirmed that the biggest drop occurs before checkout, while users who reach checkout show much stronger buying intent. It also highlighted differences in device performance, geographic purchase activity, product demand, and customer value segments.
+
 ## Executive Summary
 
 The dashboard provides a quick view of how customers move through the purchase funnel. The store recorded **666,071 add-to-cart events**, but only **38,604 users progressed to checkout** and **14,711 purchases were completed**, resulting in an overall funnel conversion rate of **2.21%**.
@@ -32,7 +55,6 @@ Below is the overview page from the PowerBI dashboard and more examples are incl
 The entire interactive dashboard can be downloaded [here](https://github.com/Megh01744/E-commerce_Funnel_Analysis/blob/main/Google%20Merchandise%20store.pbix)
 
 <img width="1420" height="797" alt="Page_1 Executive Overview" src="https://github.com/user-attachments/assets/89a9160d-111b-40d9-83b4-412d71591dcd" />
-
 
 ## Conversion and Drop-off Analysis
 
@@ -47,7 +69,6 @@ The entire interactive dashboard can be downloaded [here](https://github.com/Meg
 - The main opportunity is to understand and reduce the friction that prevents users from moving from cart to checkout.
 
 <img width="1421" height="796" alt="Page_2 Conversion Drop-off Analysis" src="https://github.com/user-attachments/assets/b4c0a8b4-d7ea-446e-9c50-686f284fa1f6" />
-
 
 ## Customer & Product Intelligence
 
