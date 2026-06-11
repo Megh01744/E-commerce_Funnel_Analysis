@@ -89,22 +89,6 @@ The entire interactive dashboard can be downloaded [here](https://github.com/Meg
 
 ## Recommendations
 
-- **Make it easier for users to move from cart to checkout.** The largest drop happens at this stage, so the business should make shipping charges, delivery dates, return policies, and the checkout button clear before users leave the cart.
-
-- **Bring cart abandoners back.** Reminder emails, app notifications, or small time-limited offers could encourage users to return and complete their purchase.
-
-- **Improve the tablet experience.** Tablet users have the lowest conversion rate, so the cart layout, page speed, button placement, and payment flow should be tested on tablet devices.
-
-- **Continue supporting Apparel, but avoid depending on it too heavily.** Apparel generates most of the revenue, but relying on one category creates risk. Other promising categories should also receive more visibility.
-
-- **Promote categories that already convert well.** Small Goods and Gift Cards have strong conversion rates despite lower revenue. They could be featured more often, recommended alongside Apparel, or included in product bundles.
-
-- **Encourage low- and mid-value users to return.** Personalized offers, loyalty rewards, and relevant product recommendations could help increase repeat purchases and move more users into higher-value segments.
-
-- **Test improvements first in the largest markets.** Since the United States contributes the most purchases, changes should be tested there first before being expanded to markets such as India and Canada.
-
-## Recommendations
-
 ### Funnel & Checkout
 - **Fix the cart-to-checkout drop.** At 5.8% against an industry average of 15-20%, showing shipping costs upfront and adding guest checkout should be the first priority.
 
