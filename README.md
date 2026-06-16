@@ -74,7 +74,7 @@ The entire interactive dashboard can be downloaded [here](https://github.com/Meg
 
 - Most users fall into the **low-value LTV segment**, accounting for **67.82%** of the customer base. Mid-value users represent **30.16%**, while high-value users make up only **2.02%**.
 
-- Only **68 high-value users completed a purchase**, highlighting an opportunity to improve repeat buying and move more low- and mid-value users into higher-value segments.
+- Only **68 high-value users or buyers completed a purchase**, highlighting an opportunity to improve repeat buying and move more low- and mid-value users into higher-value segments.
 
 - **Apparel** is the strongest revenue category, generating approximately **$78K** and contributing a large share of the total **$299K revenue**.
 
