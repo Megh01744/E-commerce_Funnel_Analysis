@@ -41,7 +41,7 @@ The analysis covered:
 - Top countries by completed purchases
 - Product categories by purchases and revenue
 - Category-level conversion rates
-- - User segmentation based on observed purchase value
+- User segmentation based on observed purchase value
 
 The analysis confirmed that the biggest drop occurs before checkout, while users who reach checkout show much stronger buying intent. It also highlighted differences in device performance, geographic purchase activity, product demand, and customer value segments.
 
