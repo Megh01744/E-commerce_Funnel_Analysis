@@ -1,6 +1,6 @@
-# Project Background
+# Google Merchandise Store Funnel and Conversion Analysis
 
-## Google Merchandise Store Funnel Analysis & Conversion Optimization
+## Project Background
 
 The Google Merchandise Store is an e-commerce platform where customers browse and purchase branded products. Every customer interaction generates valuable data about product interest, shopping behavior, and movement through the purchase journey.
 
@@ -8,11 +8,11 @@ This project analyzes customer activity across three key funnel stages: Add to C
 
 The analysis focuses on the following areas:
 
-- Funnel Performance: Measuring customer movement and drop-off across each stage.
-- Device and Geographic Behavior: Comparing conversion performance by device and country.
-- Product Performance: Evaluating category-level revenue and conversion.
-- Customer Value: Segmenting users based on lifetime value.
-- Business Opportunities: Recommending actions to reduce funnel leakage and improve purchases.
+- **Funnel Performance**: Measuring customer movement and drop-off across each stage.
+- **Device and Geographic Behavior**: Comparing conversion performance by device and country.
+- **Product Performance: Evaluating** category-level revenue and conversion.
+- **Customer Value:** Segmenting users based on their observed purchase revenue.
+- **Business Opportunities**: Recommending actions to reduce funnel leakage and improve purchases.
 
 
 The SQL queries utilized to inspect and perform Data Cleaning and Quality Checks [here](https://github.com/Megh01744/E-commerce_Funnel_Analysis/blob/main/SQL%20Queries%20/Data%20Cleaning%20and%20Quality%20Checks.sql)
@@ -41,13 +41,13 @@ The analysis covered:
 - Top countries by completed purchases
 - Product categories by purchases and revenue
 - Category-level conversion rates
-- User segmentation based on lifetime value
+- - User segmentation based on observed purchase value
 
 The analysis confirmed that the biggest drop occurs before checkout, while users who reach checkout show much stronger buying intent. It also highlighted differences in device performance, geographic purchase activity, product demand, and customer value segments.
 
 ## Executive Summary
 
-The dashboard provides a quick view of how customers move through the purchase funnel. The store recorded **666,071 add-to-cart events**, but only **38,604 users progressed to checkout** and **14,711 purchases were completed**, resulting in an overall funnel conversion rate of **2.21%**.
+The dashboard shows how activity changes across the purchase funnel. The dataset recorded **666,071 add-to-cart events, 38,604 begin-checkout events and 14,711 purchase events**, resulting in an event-based purchase-to-cart conversion rate of **2.21%**.
 
 The sharp decline between the cart and checkout stages immediately stands out as the biggest concern. The dashboard also shows that purchases are concentrated in a few markets, with the **United States contributing the highest number of completed purchases**, followed by India and Canada.
 
@@ -58,12 +58,11 @@ The entire interactive dashboard can be downloaded [here](https://github.com/Meg
 
 ## Conversion and Drop-off Analysis
 
-- The biggest drop happens between Add to Cart and Begin Checkout.
-- Only 5.80% of users who add products to their cart move forward to checkout.
-- This means nearly 94.20% leave before reaching checkout, making it the main problem area in the funnel.
-- Once users reach checkout, their buying intent becomes much stronger.
-- Around 38.11% of checkout events result in a completed purchase.
-- Mobile has the highest overall funnel conversion rate at 2.24%, followed closely by desktop at 2.20%.
+- The largest decline in event volume occurred between Add to Cart and Begin Checkout.
+- Begin-checkout events represented only **5.80%** of add-to-cart events.
+- Event volume therefore fell by **94.20%** between these two stages.
+- Purchase events represented **38.11%** of begin-checkout events, showing a much stronger conversion ratio later in the funnel.
+- Mobile recorded the highest event-based funnel conversion rate at **2.24%**, followed closely by desktop at **2.20%** and tablet at **1.84%**.
 - Tablet performs the weakest, with a conversion rate of 1.84%.
 - Since device conversion rates are quite similar, the issue does not appear to be limited to one device.
 - The main opportunity is to understand and reduce the friction that prevents users from moving from cart to checkout.
@@ -72,9 +71,9 @@ The entire interactive dashboard can be downloaded [here](https://github.com/Meg
 
 ## Customer & Product Intelligence
 
-- Most users fall into the **low-value LTV segment**, accounting for **67.82%** of the customer base. Mid-value users represent **30.16%**, while high-value users make up only **2.02%**.
+- Most users belonged to the **low-value segment**, representing **67.82%** of users. Mid-value users represented **30.16%**, while high-value users represented **2.02%**.
 
-- Only **68 high-value users or buyers completed a purchase**, highlighting an opportunity to improve repeat buying and move more low- and mid-value users into higher-value segments.
+- The high-value segment contained **68 users**, showing that observed customer value was concentrated among a small group.
 
 - **Apparel** is the strongest revenue category, generating approximately **$78K** and contributing a large share of the total **$299K revenue**.
 
