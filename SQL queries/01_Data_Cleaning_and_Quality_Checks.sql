@@ -1,11 +1,10 @@
-/* =========================================================
+/*===========================================================
    Google Merchandise Store
 
    Data Cleaning and Quality Checks
-   ========================================================= */
+============================================================/*   
 
-
-/* 1. Check the size of all three source tables */
+-- 1. Check the size of all three source tables */
 
 SELECT
     'events_raw' AS table_name,
@@ -27,7 +26,7 @@ SELECT
 FROM users;
 
 
-/* 2. Check missing values in the raw event data */
+-- 2. Check missing values in the raw event data */
 
 SELECT
     SUM(CASE WHEN user_id IS NULL THEN 1 ELSE 0 END)
@@ -53,7 +52,7 @@ SELECT
 FROM events_raw;
 
 
-/* 3. Count exact duplicate groups and extra rows */
+-- 3. Count exact duplicate groups and extra rows */
 
 WITH duplicate_groups AS (
     SELECT
@@ -83,7 +82,7 @@ SELECT
 FROM duplicate_groups;
 
 
-/* 4. Create the cleaned event table */
+-- 4. Create the cleaned event table */
 
 DROP TABLE IF EXISTS events_clean;
 
@@ -99,7 +98,7 @@ SELECT DISTINCT
 FROM events_raw;
 
 
-/* 5. Validate the cleaned event table */
+-- 5. Validate the cleaned event table */
 
 SELECT
     COUNT(*) AS cleaned_rows,
