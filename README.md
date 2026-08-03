@@ -4,30 +4,47 @@
 
 The Google Merchandise Store is an e-commerce platform where customers browse and purchase branded products. Every customer interaction generates valuable data about product interest, shopping behavior, and movement through the purchase journey.
 
-This project analyzes customer activity across three key funnel stages: Add to Cart, Begin Checkout, and Purchase. The aim is to identify where users leave the funnel, understand which customer and product segments perform better, and uncover opportunities to improve conversion.
+The Google Merchandise Store generates interaction data as visitors add products to their carts, begin checkout, and complete purchases. This project analyzes activity across those three funnel stages to identify where event volume declines and how performance differs by device, country, product category, brand, and recorded lifetime value (LTV) status.
 
-The analysis focuses on the following areas:
+The project answers five main questions:
 
-- **Funnel Performance**: Measuring customer movement and drop-off across each stage.
-- **Device and Geographic Behavior**: Comparing conversion performance by device and country.
-- **Product Performance: Evaluating** category-level revenue and conversion.
-- **Customer Value:** Segmenting users based on their observed purchase revenue.
-- **Business Opportunities**: Recommending actions to reduce funnel leakage and improve purchases.
+1. Where does the largest decline in funnel event volume occur?
 
+2. How do funnel ratios differ across devices and high-traffic countries?
 
-The SQL queries utilized to inspect and perform Data Cleaning and Quality Checks [here](https://github.com/Megh01744/E-commerce_Funnel_Analysis/blob/main/SQL%20Queries%20/Data%20Cleaning%20and%20Quality%20Checks.sql)
+3. Which product categories and brands generate the most recorded revenue?
 
-SQL queries utilized for funnel analysis can be found [here](https://github.com/Megh01744/E-commerce_Funnel_Analysis/blob/main/SQL%20Queries%20/Funnel%20Metrics.sql)
+4. Which categories combine strong conversion ratios with meaningful traffic?
 
-Targeted SQL queries regarding business questions can be found [here](https://github.com/Megh01744/E-commerce_Funnel_Analysis/blob/main/SQL%20Queries%20/Targeted%20Business%20Questions.Sql)
+5. How is the supplied recorded LTV distributed across users?
 
-An interactive Power BI dashboard can be downloaded [here](https://github.com/Megh01744/E-commerce_Funnel_Analysis/blob/main/Google%20Merchandise%20store.pbix)
 
 ## Data Structure
 
-The database structure consists of three tables: events, items, and users, with a total row count of 758,884 records before cleaning and 719,386 records after removing duplicates.
+The dataset contains three related tables: **events**, **items**, and **users**. The events table originally contained **758,884 rows**. After removing exact duplicates, **719,386 event records** remained for analysis.
+
+The ERD below shows how the three tables are connected.
 
 ![ERD](https://github.com/Megh01744/E-commerce_Funnel_Analysis/blob/main/Google%20Merchandise%20Store%20ERD%20Diagram.png)
+
+## Data Preparation and Quality Checks
+
+Before starting the analysis, SQL was used to inspect the three tables and check the quality of the data.
+
+The main issue identified was duplicate event records. The events table originally contained 758,884 rows. After removing 39,498 exact duplicates, 719,386 event records remained for analysis.
+
+Additional checks were performed for:
+
+Missing values in important fields
+Duplicate records
+Event-type consistency
+Valid user and product identifiers
+Date coverage and table relationships
+
+The cleaned data remained at the event level, meaning that repeated actions by the same user could still appear as separate events.
+
+The SQL queries used for these checks are available [Here.] 
+
 
 ## Python EDA & Visualization
 Exploratory Data Analysis was performed using Python to visualize key patterns across the dataset .Python was used to explore the SQL results in more detail and visualize the main patterns using (Pandas and Matplotlib).
