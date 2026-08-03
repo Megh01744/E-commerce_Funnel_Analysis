@@ -35,15 +35,30 @@ The main issue identified was duplicate event records. The events table original
 
 Additional checks were performed for:
 
-Missing values in important fields
-Duplicate records
-Event-type consistency
-Valid user and product identifiers
-Date coverage and table relationships
+* Missing values in important fields
+* Duplicate records
+* Event-type consistency
+* Valid user and product identifiers
+* Date coverage and table relationships
 
-The cleaned data remained at the event level, meaning that repeated actions by the same user could still appear as separate events.
+The SQL queries used for these checks are available [here.](https://github.com/Megh01744/E-commerce_Funnel_Analysis/blob/main/SQL%20queries/01_Data_Cleaning_and_Quality_Checks.sql)
 
-The SQL queries used for these checks are available [Here.] 
+## SQL Analysis
+
+After completing the quality checks, SQL was used to calculate the main funnel metrics and answer the project’s business questions.
+
+The analysis included:
+
+* Event totals for Add to Cart, Begin Checkout, and Purchase
+* Cart-to-checkout and checkout-to-purchase ratios
+* Funnel performance by device and country
+* Product-category purchases and recorded revenue
+* Category-level conversion ratios
+* User distribution by recorded LTV
+
+The funnel calculations are available [here.]
+
+The targeted business-question queries are available [here.] 
 
 
 ## Python EDA & Visualization
