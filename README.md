@@ -56,7 +56,7 @@ The analysis included:
 * Category-level conversion ratios
 * User distribution by recorded LTV
 
-The funnel calculations are available [here.]
+The funnel calculations are available [here.](https://github.com/Megh01744/E-commerce_Funnel_Analysis/blob/main/SQL%20queries/02_Funnel_Metrics.sql)
 
 The targeted business-question queries are available [here.] 
 
