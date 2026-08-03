@@ -78,7 +78,7 @@ View the Python EDA notebook [here.](https://github.com/Megh01744/E-commerce_Fun
 
 Power BI was used to create a three-page interactive report with slicers for country, device, and category.
 
-Download the interactive Power BI dashboard[here.]
+Download the interactive Power BI dashboard[here.](
 
 ## Executive Summary
 The first dashboard page provides an overall view of the purchase funnel. It recorded 666,071 add-to-cart events, 38,604 begin-checkout events, and 14,711 purchase events, resulting in a 2.21% purchase-to-cart rate.
