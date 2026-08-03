@@ -66,18 +66,13 @@ The targeted business-question queries are available [here.](https://github.com/
 Python, Pandas, and Matplotlib were used to inspect the SQL outputs and explore:
 
 * Funnel-stage distribution
-
 * Monthly purchase-event trends
-
 * Device and country performance
-
 * Product-category purchases and revenue
-
 * Category-level event ratios
-
 * Recorded user-value distribution
 
-View the Python EDA notebook [here.]
+View the Python EDA notebook [here.](https://github.com/Megh01744/E-commerce_Funnel_Analysis/blob/main/notebooks/Ecommerce_Funnel_Python_EDA.ipynb)
 
 
 ## Executive Summary
