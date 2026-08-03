@@ -103,7 +103,32 @@ Only **4,445 users (1.65%)** had a positive recorded LTV. This is a descriptive 
 
 <img width="1422" height="796" alt="Product and Customer Value" src="https://github.com/user-attachments/assets/fbf78666-ebfa-43f2-a6a6-1a59f58fa73e" />
 
+## Recommendations
 
+Based on the analysis, these are the main areas worth testing:
 
+* **Understand the cart-to-checkout drop:** First confirm that the events are tracked correctly, then review possible friction such as delivery costs, sign-in requirements, page speed, or an unclear checkout button.
+
+* **Bring interested shoppers back:** Test simple cart-reminder emails or messages and compare the results with customers who did not receive one.
+
+* **Take a closer look at tablet:** Review the layout, button placement, and payment process because tablet had the lowest purchase-to-cart rate.
+
+* **Give high-converting categories more visibility:** Test product recommendations or bundles featuring Small Goods and Gift Cards.
+
+* **Check whether the changes work:** Measure purchase sessions, conversion rates, and additional recorded revenue before introducing changes more widely.
+
+## Limitations
+
+* Funnel ratios are based on **event counts**, not unique users or confirmed customer journeys. The same user may generate multiple events.
+
+* The data covers only **November 2020 to January 2021**, so it may not represent longer-term behaviour.
+
+* Recorded revenue is based on item prices linked to purchase events and does not include discounts, shipping, tax, or refunds.
+
+* Since no reliable order ID was available, revenue per purchase session should not be treated as average order value.
+
+* Recorded LTV is a field provided in the dataset, not a prediction of future customer value.
+
+* Device, country, and category comparisons show patterns but do not prove what caused them.
 
 
