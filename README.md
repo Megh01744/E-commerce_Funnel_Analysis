@@ -84,7 +84,8 @@ Download the interactive Power BI dashboard[here.]
 ## Executive Summary
 The first dashboard page provides an overall view of the purchase funnel. It recorded 666,071 add-to-cart events, 38,604 begin-checkout events, and 14,711 purchase events, resulting in a 2.21% purchase-to-cart rate.
 
-![Page 1 - Executive Overview](<img width="1377" height="772" alt="Executive Overview" src="https://github.com/user-attachments/assets/0549714c-c58c-4594-a8e7-752ac3afed0b" />)
+[Page 1 - Executive Overview]
+(<img width="1377" height="772" alt="Executive Overview" src="https://github.com/user-attachments/assets/0549714c-c58c-4594-a8e7-752ac3afed0b" />)
 
 
 
