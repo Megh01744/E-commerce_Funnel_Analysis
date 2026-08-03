@@ -58,24 +58,27 @@ The analysis included:
 
 The funnel calculations are available [here.](https://github.com/Megh01744/E-commerce_Funnel_Analysis/blob/main/SQL%20queries/02_Funnel_Metrics.sql)
 
-The targeted business-question queries are available [here.] 
+The targeted business-question queries are available [here.](https://github.com/Megh01744/E-commerce_Funnel_Analysis/blob/main/SQL%20queries/03_Targeted_Business_Questions.sql)
 
 
-## Python EDA & Visualization
-Exploratory Data Analysis was performed using Python to visualize key patterns across the dataset .Python was used to explore the SQL results in more detail and visualize the main patterns using (Pandas and Matplotlib).
+## Python EDA
 
-The full Python EDA notebook can be found [here](https://github.com/Megh01744/E-commerce_Funnel_Analysis/blob/main/Ecommerce_Funnel_EDA.ipynb)
+Python, Pandas, and Matplotlib were used to inspect the SQL outputs and explore:
 
-The analysis covered:
+* Funnel-stage distribution
 
-- Funnel-stage distribution and overall conversion
-- Checkout and purchase performance by device
-- Top countries by completed purchases
-- Product categories by purchases and revenue
-- Category-level conversion rates
-- User segmentation based on observed purchase value
+* Monthly purchase-event trends
 
-The analysis confirmed that the biggest drop occurs before checkout, while users who reach checkout show much stronger buying intent. It also highlighted differences in device performance, geographic purchase activity, product demand, and customer value segments.
+* Device and country performance
+
+* Product-category purchases and revenue
+
+* Category-level event ratios
+
+* Recorded user-value distribution
+
+View the Python EDA notebook [here.]
+
 
 ## Executive Summary
 
