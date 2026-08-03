@@ -74,17 +74,20 @@ Python, Pandas, and Matplotlib were used to inspect the SQL outputs and explore:
 
 View the Python EDA notebook [here.](https://github.com/Megh01744/E-commerce_Funnel_Analysis/blob/main/notebooks/Ecommerce_Funnel_Python_EDA.ipynb)
 
+## Power BI
+
+Power BI was used to create a three-page interactive report with slicers for country, device, and category.
+
+Download the interactive Power BI dashboard[here.]
+
 
 ## Executive Summary
+The first dashboard page provides an overall view of the purchase funnel. It recorded 666,071 add-to-cart events, 38,604 begin-checkout events, and 14,711 purchase events, resulting in a 2.21% purchase-to-cart rate.
 
-The dashboard shows how activity changes across the purchase funnel. The dataset recorded **666,071 add-to-cart events, 38,604 begin-checkout events and 14,711 purchase events**, resulting in an event-based purchase-to-cart conversion rate of **2.21%**.
+![Page 1 - Executive Overview](<img width="1377" height="772" alt="Executive Overview" src="https://github.com/user-attachments/assets/0549714c-c58c-4594-a8e7-752ac3afed0b" />)
 
-The sharp decline between the cart and checkout stages immediately stands out as the biggest concern. The dashboard also shows that purchases are concentrated in a few markets, with the **United States contributing the highest number of completed purchases**, followed by India and Canada.
 
-Below is the overview page from the PowerBI dashboard and more examples are included throughout the report. 
-The entire interactive dashboard can be downloaded [here](https://github.com/Megh01744/E-commerce_Funnel_Analysis/blob/main/Google%20Merchandise%20store.pbix)
 
-<img width="1420" height="797" alt="Page_1 Executive Overview" src="https://github.com/user-attachments/assets/89a9160d-111b-40d9-83b4-412d71591dcd" />
 
 ## Conversion and Drop-off Analysis
 
