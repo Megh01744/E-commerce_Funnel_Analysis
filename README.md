@@ -1,4 +1,4 @@
-# Google Merchandise Store Funnel and Conversion Analysis
+# Google Merchandise Store E-commerce Funnel Analysis
 
 ## Project Background
 
